@@ -7,7 +7,6 @@ import pandas as pd
 # Load models
 model = pickle.load(open("crop_model.pkl", "rb"))
 le = pickle.load(open("label_encoder.pkl", "rb"))
-hum_model = pickle.load(open("humidity_model.pkl", "rb"))
 
 # Crop advice dictionary
 crop_advice = {
